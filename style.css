@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center; 
+    padding:  20px;
+}
+nav{
+    flex: 1; 
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none; 
+    color: white;
+    font-size: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 200px;
+}   
+a{
+    text-decoration: none;
+    color:white;
+}
+p{
+    color: whitesmoke;
+}
+.container{
+            max-width: 1300px;
+            margin: auto;
+            padding-left: 5px;
+            padding-right: 5px;
+}
+.row{ 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    color:snow
+
+}
+.col-2{
+    
+    flex-basis: 50%;
+    min-width: 300px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    margin: 25px;
+}
+.col-2 img{ 
+    max-width: 100%;
+    padding: 10px 0;
+    opacity: 100%; 
+    padding-right: 20px;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    
+    
+}
+
+.btn{
+    
+    display:   inline-block   ;
+    background-color: white;
+    margin: ;
+    border-radius: 9px;
+    color: black;
+    font-display: block;
+    padding-left: 10px;
+    padding-right: 10px;  
+    transition: background 0.25s;
+}
+
+.btn2{
+    display:   inline-block   ;
+    background-color: white;
+    margin: px ;
+    border-radius: 9px;
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;  
+    transition: background 0.25s;
+}
+    
+.header{
+    background-color: black
+    }
+.btn2:hover{
+    background-color: dimgray;
+}   
+
+.btn:hover{ 
+    background-color: dimgray;
+ 
+}
+
+
+
+
+
+
+
+
+
+
